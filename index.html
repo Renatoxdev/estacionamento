@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="caixa">
+        <h1>Bem-vindos  ao estacionamento Xique-Xique!</h1>
+        <h2>Seu carro mais seguro conosco!</h2>
+        <div id="grid"> <h3>Tabela de valores abaixo:</h3>
+            <br>
+            <div id="price">
+                <p>Meia hora de estacionamento por R$: 1,00!</p>
+                <p>Uma hora de estacionamento por R$: 1,75!</p>
+                <p>3 Horas de estacionamento por R$: 3:00!</p> </div>
+            </br>
+            <div id="attention">
+                <p> Atenção! O tempo limite de reserva de vaga é de 3 horas. Após isso o usuário deverá fazer outro pagamento.</p>
+            </div>
+        </br>
+            <h2>Abaixo, informe o valor do seu pagamento:</h2>
+        </br>
+        </div>
+        R$: <input type="number" id="deposito">
+        <button id="button">depositar</button>
+        <button onclick="recaregarPagina()" id="button">Atualizar</button>
+    </br>
+    </br>
+        
+        <p id="analise"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

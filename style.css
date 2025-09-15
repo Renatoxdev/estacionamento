@@ -1,0 +1,53 @@
+* {
+padding:0;
+margin:0;
+vertical-align:baseline;
+list-style:none;
+border:0
+}
+
+
+body{
+    background-color: #191970;
+}
+
+.caixa{
+    font-family: Arial, Helvetica, sans-serif;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 50%;    
+    margin: 0 auto;
+    margin-top: 150px; 
+    padding: 20px;  
+    border: 3px solid #ccc; 
+    box-sizing: border-box;
+    background-color: #d6d7e2;
+    word-break: break-all;
+    border-radius: 10px;
+    
+}
+
+#price {
+    color: rgb(41, 153, 46); 
+}
+
+#attention {
+    color: rgb(255, 0, 0); 
+}
+
+#deposito{
+    padding: 15px 30px;
+    font-size: 20px;    
+    width: 90px;    
+    height: 10px;
+    margin-right: 20px;       
+}
+#button{
+    padding: 15px 30px; /* Aumenta o espaçamento interno */
+    font-size: 20px;    /* Aumenta o tamanho da fonte */
+    width: 150px;       /* Define a largura do botão */
+    height: 50px;       /* Define a altura do botão */
+}
+
